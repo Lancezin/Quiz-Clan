@@ -21,174 +21,229 @@ const clans = {
   '£': { name: "Gooba", badge: "https://cdn.discordapp.com/attachments/1015790172966748203/1349848086473740368/62_Sem_Titulo_20250313175239.png?ex=67d4977e&is=67d345fe&hm=ba72eca2687db2e12bce46550d98df61a4533075ef917801554b5ca444ea8a6f" },
   '€': { name: "Yateratsu", badge: "https://cdn.discordapp.com/attachments/1015790172966748203/1349856748978307102/63_Sem_Titulo_20250313182548.png?ex=67d49f90&is=67d34e10&hm=5d2e6b86c66e981b1173a65e122a67a9899069f3dc2a9e3f5cebcee00d430a8d" },
   '$': { name: "Sereni", badge: "https://cdn.discordapp.com/attachments/1015790172966748203/1349570968204611604/59_Sem_Titulo_20250312233124.png?ex=67d43e28&is=67d2eca8&hm=0ba37fd64e04fef10eb1064b652d51db93e8ea2b69e18b5031d20ddbc316aaeb" },
-  'π': { name: "Zenpak", badge: "https://cdn.discordapp.com/attachments/1015790172966748203/1349939945481179156/64_Sem_Titulo_20250313235916.png?ex=67d4ed0b&is=67d39b8b&hm=d6eeb9fd4fb2d5442733403f8666888a9d877422c2ee40e4e32a37a5d305d5b7&" }
+  'π': { name: "Zenpak", badge: "https://cdn.discordapp.com/attachments/1015790172966748203/1349874521255186472/64_Sem_Titulo_20250313193853.png?ex=67d4b01d&is=67d35e9d&hm=b476033fd4bcfee92c0d9cbc3c1c53735cdf4c2b8392bc76c6b87a553536f5f5" }
 };
 
-// Lista completa das 15 perguntas e respostas
+// Lista completa das 20 perguntas e respostas remolduladas e enumeradas
 const questions = [
   {
-    question: "Durante um confronto, você avista um aliado caído no campo de batalha. Qual a sua reação?",
+    question: "1. Você encontra um artefato misterioso durante uma escavação arqueológica. O que você faz?",
     answers: [
-      { text: "Pauso para avaliar o risco e decidir a melhor estratégia.", clan: '$' },
-      { text: "Ergo-o com cuidado e levo-o para abrigo.", clan: '@' },
-      { text: "Permaneço inerte, sem demonstrar qualquer interesse.", clan: 'π' },
-      { text: "Corro para longe, priorizando minha própria segurança.", clan: '£' },
-      { text: "Volto com fúria para eliminar os inimigos que o cercam.", clan: '€' },
-      { text: "Não me detenho – sigo a missão sem olhar para trás.", clan: '¥' }
+      { text: "Analiso minuciosamente seus detalhes para descobrir seu valor estratégico.", clan: '$' },
+      { text: "Procuro um especialista para preservar sua importância histórica.", clan: '@' },
+      { text: "Ignoro-o, pois objetos antigos não me interessam.", clan: 'π' },
+      { text: "Deixo-o para trás, focando na minha segurança pessoal.", clan: '£' },
+      { text: "Testo sua resistência e, se necessário, destruo-o para provar seu poder.", clan: '€' },
+      { text: "Utilizo-o como ferramenta, se for vantajoso para meus objetivos.", clan: '¥' }
     ]
   },
   {
-    question: "Em meio a um tiroteio, você nota um companheiro gravemente ferido. O que faz?",
+    question: "2. Em uma conferência sobre tecnologias futuristas, uma ideia controversa é apresentada. Qual é sua reação?",
     answers: [
-      { text: "Simplesmente não intervengo e sigo meu caminho.", clan: 'π' },
-      { text: "Ignoro o ferido e continuo a avançar sem piedade.", clan: '¥' },
-      { text: "Analiso a situação e organizo um resgate estratégico.", clan: '$' },
-      { text: "Ofereço socorro imediato, mesmo sob fogo.", clan: '@' },
-      { text: "Investo com violência contra os responsáveis pelo ataque.", clan: '€' },
-      { text: "Abandono a área o mais rápido possível para salvar a minha vida.", clan: '£' }
+      { text: "Avalio seus méritos e riscos, estruturando um plano estratégico.", clan: '$' },
+      { text: "Defendo a inovação, acreditando no poder da tradição tecnológica.", clan: '@' },
+      { text: "Permaneço neutro e apenas observo as discussões.", clan: 'π' },
+      { text: "Fico cético e prefiro métodos que já conheço.", clan: '£' },
+      { text: "Critico com vigor e proponho uma abordagem mais intensa.", clan: '€' },
+      { text: "Apoio somente se houver benefícios práticos imediatos.", clan: '¥' }
     ]
   },
   {
-    question: "Durante um cerco, um amigo é surpreendido por um grupo hostil. Como age?",
+    question: "3. Você é convidado para participar de uma aventura global em busca de tesouros perdidos. Qual é sua decisão?",
     answers: [
-      { text: "Deixo-o para trás, pois fraquezas atrasam o progresso.", clan: '¥' },
-      { text: "Lanço-me contra os inimigos com uma ira implacável.", clan: '€' },
-      { text: "Observo a cena sem me envolver, sem alterar meu rumo.", clan: 'π' },
-      { text: "Reviso rapidamente o cenário para encontrar uma solução segura.", clan: '$' },
-      { text: "Corro para resgatá-lo, honrando nossa aliança.", clan: '@' },
-      { text: "Fugir é minha única opção para não me arriscar.", clan: '£' }
+      { text: "Aceito com cautela, planejando cada etapa meticulosamente.", clan: '$' },
+      { text: "Mergulho de cabeça na aventura, animado com a chance de ajudar outros.", clan: '@' },
+      { text: "Ignoro o convite, pois aventuras não me despertam interesse.", clan: 'π' },
+      { text: "Recuso, priorizando minha própria segurança e rotina.", clan: '£' },
+      { text: "Aceito com entusiasmo, pronto para enfrentar perigos intensamente.", clan: '€' },
+      { text: "Só participo se os lucros forem evidentes e vantajosos.", clan: '¥' }
     ]
   },
   {
-    question: "Enquanto a batalha ruge, você ouve um grito de socorro vindo de um aliado em perigo. Qual é sua atitude?",
+    question: "4. Durante uma viagem, você se depara com uma comunidade isolada e necessitada. Como você reage?",
     answers: [
-      { text: "Confronto com brutalidade os agressores, buscando vingança.", clan: '€' },
-      { text: "Procuro a rota de fuga, evitando qualquer contato.", clan: '£' },
-      { text: "Penso nas consequências e planejo uma intervenção tática.", clan: '$' },
-      { text: "Deixo o clamor passar, sem demonstrar empatia.", clan: 'π' },
-      { text: "Mantenho o foco no objetivo, dispensando pedidos de ajuda.", clan: '¥' },
-      { text: "Atendo prontamente, oferecendo auxílio sem questionar.", clan: '@' }
+      { text: "Estudo a situação para oferecer ajuda de forma sustentável.", clan: '$' },
+      { text: "Forneço apoio imediato, colocando o bem-estar coletivo em primeiro lugar.", clan: '@' },
+      { text: "Observo a comunidade sem me envolver emocionalmente.", clan: 'π' },
+      { text: "Prefiro não interferir para preservar minha estabilidade.", clan: '£' },
+      { text: "Imponho minha vontade de forma enérgica para 'resolver' o problema.", clan: '€' },
+      { text: "Aproximo-me apenas se houver benefícios estratégicos para mim.", clan: '¥' }
     ]
   },
   {
-    question: "Durante uma emboscada noturna, você vê um camarada isolado e vulnerável. O que faz?",
+    question: "5. Você é convidado para um banquete em um ambiente moderno com toques medievais. Qual sua atitude?",
     answers: [
-      { text: "Retiro-me imediatamente, não correndo riscos.", clan: '£' },
-      { text: "Mantenho distância e não me incomodo com a fragilidade alheia.", clan: 'π' },
-      { text: "Ignoro a situação e priorizo a execução da missão.", clan: '¥' },
-      { text: "Rápido, corro ao seu lado para protegê-lo.", clan: '@' },
-      { text: "Investo com extrema violência para virar o jogo a nosso favor.", clan: '€' },
-      { text: "Avalio a situação para decidir se vale a pena o resgate.", clan: '$' }
+      { text: "Organizo a noite para aproveitar cada detalhe de forma planejada.", clan: '$' },
+      { text: "Desfruto do evento valorizando tradições e hospitalidade.", clan: '@' },
+      { text: "Participo sem muita empolgação, mantendo distância emocional.", clan: 'π' },
+      { text: "Fico na margem, evitando qualquer situação de risco.", clan: '£' },
+      { text: "Envolvo-me intensamente, demonstrando vigor e paixão.", clan: '€' },
+      { text: "Participarei se houver oportunidades para ganhos práticos.", clan: '¥' }
     ]
   },
   {
-    question: "No meio de um avanço arriscado, um aliado tropeça e cai. Qual será sua decisão?",
+    question: "6. Ao investigar uma lenda urbana, você se depara com um dilema moral inesperado. O que você faz?",
     answers: [
-      { text: "Pauso para reavaliar e traçar um plano seguro de resgate.", clan: '$' },
-      { text: "Revidar contra os inimigos se torna imperativo para mostrar força.", clan: '€' },
-      { text: "Não me envolvo; cada um deve lidar com seu próprio destino.", clan: 'π' },
-      { text: "Estendo a mão com compaixão e ajudo-o a levantar.", clan: '@' },
-      { text: "Sigo adiante; comprometer a missão é inaceitável.", clan: '¥' },
-      { text: "Não arrisco: fujo antes que a situação piore.", clan: '£' }
+      { text: "Analiso a situação e tomo uma decisão com base na lógica.", clan: '$' },
+      { text: "Agirei com compaixão, mesmo que isso envolva riscos pessoais.", clan: '@' },
+      { text: "Mantenho-me distante e não me deixo levar por emoções.", clan: 'π' },
+      { text: "Evito o dilema para não complicar minha vida.", clan: '£' },
+      { text: "Enfrento o dilema com intensidade e soluções radicais.", clan: '€' },
+      { text: "Decido com frieza, priorizando resultados práticos.", clan: '¥' }
     ]
   },
   {
-    question: "Em uma investida, você percebe que um companheiro foi alvejado por um tiro errado. Como reage?",
+    question: "7. Durante uma sessão de brainstorming em uma startup inovadora, uma ideia ousada é proposta. Como você reage?",
     answers: [
-      { text: "Corro para socorrê-lo, colocando a vida em primeiro lugar.", clan: '@' },
-      { text: "Fico impassível e sigo, sem que emoções me desviem.", clan: 'π' },
-      { text: "Escapo sem olhar para trás, temendo por mim mesmo.", clan: '£' },
-      { text: "Reviso rapidamente os riscos e determino a ação mais eficaz.", clan: '$' },
-      { text: "Agarro a chance de revidar e desencadear minha fúria.", clan: '€' },
-      { text: "Deixo-o para trás, pois distrações comprometem a vitória.", clan: '¥' }
+      { text: "Estruturo um plano robusto analisando prós e contras.", clan: '$' },
+      { text: "Incentivo a criatividade e o trabalho em equipe com entusiasmo.", clan: '@' },
+      { text: "Observo calmamente sem me comprometer com a ideia.", clan: 'π' },
+      { text: "Prefiro métodos tradicionais e evito riscos.", clan: '£' },
+      { text: "Defendo uma execução rápida e enérgica, sem reservas.", clan: '€' },
+      { text: "Apoio a ideia somente se houver benefícios claros e imediatos.", clan: '¥' }
     ]
   },
   {
-    question: "Durante uma rota de fuga, você observa um aliado encurralado. Qual a sua escolha?",
+    question: "8. Você descobre que um velho amigo anda envolvido em atividades duvidosas. Qual é sua reação?",
     answers: [
-      { text: "Mantenho-me distante, pois cada um deve cuidar de si.", clan: '¥' },
-      { text: "Calculo a melhor manobra antes de tomar qualquer ação.", clan: '$' },
-      { text: "Permito que o ocorrido siga seu curso sem minha intervenção.", clan: 'π' },
-      { text: "Volto imediatamente para salvá-lo, demonstrando lealdade.", clan: '@' },
-      { text: "Investo com extrema violência para virar o jogo a nosso favor.", clan: '€' },
-      { text: "Corro para um refúgio seguro, sem me arriscar no resgate.", clan: '£' }
+      { text: "Procuro entender a situação antes de tomar uma decisão.", clan: '$' },
+      { text: "Ofereço ajuda para que ele retome o caminho certo.", clan: '@' },
+      { text: "Mantenho distância e deixo a situação como está.", clan: 'π' },
+      { text: "Ignoro o problema, pois não afeta diretamente minha vida.", clan: '£' },
+      { text: "Confronto-o com intensidade exigindo mudanças imediatas.", clan: '€' },
+      { text: "Utilizo a situação para obter alguma vantagem estratégica.", clan: '¥' }
     ]
   },
   {
-    question: "Em meio a um conflito, um companheiro é subitamente atacado por inimigos ocultos. Como age?",
+    question: "9. Em um festival cultural futurista, você é desafiado a competir em um jogo inovador. O que você faz?",
     answers: [
-      { text: "Lanço-me contra os inimigos com uma ira implacável.", clan: '€' },
-      { text: "Assisto à cena com desinteresse, mantendo minha neutralidade.", clan: 'π' },
-      { text: "Interviro de imediato, guiado pela honra e compaixão.", clan: '@' },
-      { text: "Fugir é minha reação natural para preservar minha integridade.", clan: '£' },
-      { text: "Paro para observar e arquitetar uma resposta eficaz.", clan: '$' },
-      { text: "Avanço sem parar, considerando o sacrifício um peso desnecessário.", clan: '¥' }
+      { text: "Estudo as regras para maximizar minhas chances de vitória.", clan: '$' },
+      { text: "Participo com entusiasmo e espírito esportivo.", clan: '@' },
+      { text: "Prefiro assistir, sem entrar na competição.", clan: 'π' },
+      { text: "Fico fora, buscando evitar riscos desnecessários.", clan: '£' },
+      { text: "Competirei com toda a minha energia para vencer a qualquer custo.", clan: '€' },
+      { text: "Envolvo-me se isso trouxer vantagens práticas para mim.", clan: '¥' }
     ]
   },
   {
-    question: "Durante um confronto intenso, você nota que um aliado foi surpreendido por um golpe traiçoeiro. Qual é sua resposta?",
+    question: "10. Você é designado para liderar uma missão de resgate em uma metrópole futurista. Qual é sua abordagem?",
     answers: [
-      { text: "Saio correndo, evitando ser pego na confusão.", clan: '£' },
-      { text: "Analiso o campo de batalha e ajusto o plano conforme necessário.", clan: '$' },
-      { text: "Sigo adiante sem hesitar, pois não posso me atrasar.", clan: '¥' },
-      { text: "Não reajo, permanecendo indiferente ao drama alheio.", clan: 'π' },
-      { text: "Desencadeio um ataque brutal contra os responsáveis.", clan: '€' },
-      { text: "Volto imediatamente para ampará-lo com dedicação.", clan: '@' }
+      { text: "Planejo a operação meticulosamente, considerando todos os riscos.", clan: '$' },
+      { text: "Lidero com coragem e empatia, colocando vidas em primeiro lugar.", clan: '@' },
+      { text: "Mantenho uma postura distante, focando exclusivamente na missão.", clan: 'π' },
+      { text: "Prefiro evitar a responsabilidade e não me arriscar.", clan: '£' },
+      { text: "Conduzo a missão com agressividade e determinação total.", clan: '€' },
+      { text: "Tomo decisões práticas visando eficiência e resultados imediatos.", clan: '¥' }
     ]
   },
   {
-    question: "Enquanto lidera seu grupo, você presencia um aliado ser alvejado por um disparo traiçoeiro. O que decide?",
+    question: "11. Durante uma expedição a uma floresta encantada, um ser místico oferece um presente. Como você reage?",
     answers: [
-      { text: "Interviro para curar e proteger, sem medir riscos.", clan: 'π' },
-      { text: "Reviso os fatos e calculo a melhor ação de resgate.", clan: '$' },
-      { text: "Deixo o incidente para trás, mantendo o foco na estratégia.", clan: '¥' },
-      { text: "Simplesmente não intervini – o risco já estava feito.", clan: '@' },
-      { text: "Evito o confronto e procuro escapar rapidamente.", clan: '£' },
-      { text: "Transformo a situação em um pretexto para punir com violência.", clan: '€' }
+      { text: "Aceito o presente após analisar suas implicações cuidadosamente.", clan: '$' },
+      { text: "Recebo-o com gratidão, valorizando o gesto simbólico.", clan: '@' },
+      { text: "Ignoro o presente, sem me deixar envolver por superstições.", clan: 'π' },
+      { text: "Recuso-o para evitar distrações em minha jornada.", clan: '£' },
+      { text: "Agarro o presente impulsivamente, mesmo sem considerar as consequências.", clan: '€' },
+      { text: "Utilizo-o de forma prática se isso me trouxer uma vantagem.", clan: '¥' }
     ]
   },
   {
-    question: "Durante um ataque relâmpago, um amigo clama por socorro, mas a situação é caótica. Qual sua atitude?",
+    question: "12. Você é convidado para um encontro social em um ambiente de realidade virtual imersiva. Qual é sua atitude?",
     answers: [
-      { text: "Recuso-me a ser atrasado; a missão não pode esperar.", clan: '¥' },
-      { text: "Fico alheio à confusão, sem qualquer intenção de intervir.", clan: 'π' },
-      { text: "Acredito na honra e corro para oferecer ajuda, custe o que custar.", clan: '@' },
-      { text: "Meu instinto é fugir, evitando o risco de ser envolvido.", clan: '£' },
-      { text: "Refleto rapidamente e decido a melhor forma de agir sem comprometer a tática.", clan: '$' },
-      { text: "Vejo nisso uma oportunidade para desferir meu castigo contra os inimigos.", clan: '€' }
+      { text: "Planejo minha participação para obter os melhores resultados.", clan: '$' },
+      { text: "Participo ativamente, valorizando conexões mesmo que virtuais.", clan: '@' },
+      { text: "Mantenho-me reservado, observando sem me envolver muito.", clan: 'π' },
+      { text: "Evito o encontro para preservar minha estabilidade.", clan: '£' },
+      { text: "Mergulho na experiência de forma intensa, desafiando convenções.", clan: '€' },
+      { text: "Só participo se houver ganhos práticos para meus objetivos.", clan: '¥' }
     ]
   },
   {
-    question: "Em meio ao tumulto de uma batalha campal, você nota um aliado sendo cercado por inimigos. Como reage?",
+    question: "13. Durante uma crise ambiental, você tem a chance de implementar uma solução inovadora. O que faz?",
     answers: [
-      { text: "Procuro me afastar do perigo, sem olhar para trás.", clan: '£' },
-      { text: "Ajo com coragem e resgato-o, reafirmando nossa aliança.", clan: '@' },
-      { text: "Observando atentamente, traço um plano para uma intervenção segura.", clan: '$' },
-      { text: "Permano inerte, sem me envolver em dramas alheios.", clan: 'π' },
-      { text: "Considero o resgate secundário e avanço com frieza calculada.", clan: '¥' },
-      { text: "Desencadeio um contra-ataque feroz para dispersar os agressores.", clan: '€' }
+      { text: "Avalio os dados e proponho uma estratégia sustentável.", clan: '$' },
+      { text: "Mobilizo todos ao redor para uma ação conjunta e altruísta.", clan: '@' },
+      { text: "Permano alheio, sem me envolver na crise diretamente.", clan: 'π' },
+      { text: "Prefiro não me arriscar e me isolo da situação.", clan: '£' },
+      { text: "Defendo medidas radicais, mesmo que controversas.", clan: '€' },
+      { text: "Implemento a solução se ela gerar benefícios tangíveis.", clan: '¥' }
     ]
   },
   {
-    question: "Enquanto atravessa uma zona de conflito, você vê um aliado ser surpreendido por uma emboscada. Qual a sua decisão?",
+    question: "14. Você descobre um segredo obscuro sobre uma grande organização. Qual é sua reação?",
     answers: [
-      { text: "Lanço-me com fúria para desbaratar a emboscada inimiga.", clan: '€' },
-      { text: "Mantenho o foco na missão e deixo-o para resolver seu próprio destino.", clan: '¥' },
-      { text: "Ignoro o incidente, permanecendo distante e desapegado.", clan: 'π' },
-      { text: "Recuo para evitar ser capturado na mesma cilada.", clan: '£' },
-      { text: "Dou prioridade à vida do amigo, resgatando-o com afeto.", clan: '@' },
-      { text: "Pauso para estudar o cenário e definir a melhor estratégia de resgate.", clan: '$' }
+      { text: "Investigo a fundo antes de tomar qualquer atitude.", clan: '$' },
+      { text: "Denuncio o segredo para proteger os inocentes.", clan: '@' },
+      { text: "Ignoro a informação, mantendo-me distante.", clan: 'π' },
+      { text: "Não me envolvo, pois isso não afeta meus interesses.", clan: '£' },
+      { text: "Uso o segredo para impor minha vontade de forma enérgica.", clan: '€' },
+      { text: "Avalio como explorá-lo para obter vantagens práticas.", clan: '¥' }
     ]
   },
   {
-    question: "Durante uma investida arriscada, um aliado é surpreendido e fica desorientado. Como você reage?",
+    question: "15. Em um desafio culinário, você precisa criar um prato que represente sua personalidade. Como você aborda a tarefa?",
     answers: [
-      { text: "Reavalio o terreno e aplico uma solução tática para contornar a crise.", clan: '$' },
-      { text: "Fugi para garantir minha própria sobrevivência, sem olhar para trás.", clan: '£' },
-      { text: "Sigo sem hesitar, pois atrasos podem custar a vitória.", clan: '¥' },
-      { text: "Mantenho minha postura fria, sem qualquer intenção de me envolver.", clan: 'π' },
-      { text: "Rápido, volto para auxiliá-lo, honrando nosso compromisso.", clan: '@' },
-      { text: "Transformo o caos em oportunidade para revidar com brutalidade.", clan: '€' }
+      { text: "Planejo cada detalhe e executo com precisão estratégica.", clan: '$' },
+      { text: "Cozinho com paixão, valorizando a tradição e os sabores autênticos.", clan: '@' },
+      { text: "Sigo a receita de forma básica, sem grandes inovações.", clan: 'π' },
+      { text: "Opto por um prato simples e seguro, evitando riscos na cozinha.", clan: '£' },
+      { text: "Experimento sabores intensos e ousados, sem medo de inovar.", clan: '€' },
+      { text: "Aprovo a receita se ela demonstrar praticidade e eficiência.", clan: '¥' }
+    ]
+  },
+  {
+    question: "16. Você se depara com um fenômeno inexplicável durante uma expedição urbana. Qual é sua reação?",
+    answers: [
+      { text: "Analiso cuidadosamente para entender seu impacto.", clan: '$' },
+      { text: "Mergulho na experiência, encantado com o mistério.", clan: '@' },
+      { text: "Observo sem me envolver, mantendo a calma habitual.", clan: 'π' },
+      { text: "Procuro rapidamente uma rota segura para evitar complicações.", clan: '£' },
+      { text: "Encaro o fenômeno com fervor e visão intensa.", clan: '€' },
+      { text: "Identifico oportunidades práticas mesmo na anomalia.", clan: '¥' }
+    ]
+  },
+  {
+    question: "17. Durante um debate acalorado sobre política e sociedade, você precisa tomar uma posição. Qual postura adota?",
+    answers: [
+      { text: "Formulo argumentos sólidos baseados em fatos e estratégia.", clan: '$' },
+      { text: "Defendo com convicção os valores da justiça e solidariedade.", clan: '@' },
+      { text: "Permano neutro, evitando envolvimento em discussões intensas.", clan: 'π' },
+      { text: "Evito o debate para não arriscar conflitos desnecessários.", clan: '£' },
+      { text: "Ataco as ideias contrárias com paixão e vigor.", clan: '€' },
+      { text: "Adoto uma postura pragmática, focando em resultados concretos.", clan: '¥' }
+    ]
+  },
+  {
+    question: "18. Você tem a oportunidade de embarcar em uma viagem interplanetária. Qual é sua reação?",
+    answers: [
+      { text: "Planejo a expedição com detalhes minuciosos e realistas.", clan: '$' },
+      { text: "Aceito com entusiasmo, animado com a possibilidade de explorar o desconhecido.", clan: '@' },
+      { text: "Fico indiferente, pois o espaço não me desperta grandes emoções.", clan: 'π' },
+      { text: "Recuso, preferindo a segurança e a rotina da Terra.", clan: '£' },
+      { text: "Empolgo-me com a ideia e me preparo para desafios extremos.", clan: '€' },
+      { text: "Aceito se houver ganhos práticos que justifiquem a viagem.", clan: '¥' }
+    ]
+  },
+  {
+    question: "19. Durante uma competição de habilidades artísticas, você é desafiado a criar uma obra original. Como você procede?",
+    answers: [
+      { text: "Estruturo um plano meticuloso para criar algo tecnicamente excelente.", clan: '$' },
+      { text: "Inspiro-me na tradição e busco emocionar com minha criação.", clan: '@' },
+      { text: "Produzo a obra sem muito empenho emocional, apenas cumprindo o básico.", clan: 'π' },
+      { text: "Prefiro uma abordagem segura, sem arriscar em inovações.", clan: '£' },
+      { text: "Experimento técnicas ousadas para criar uma peça vibrante e impactante.", clan: '€' },
+      { text: "Adoto uma estratégia prática se a obra trouxer reconhecimento imediato.", clan: '¥' }
+    ]
+  },
+  {
+    question: "20. Você se vê diante de um dilema ético: escolher entre um benefício pessoal imediato e o bem coletivo. O que faz?",
+    answers: [
+      { text: "Analiso os impactos e opto pela solução que maximize os benefícios a longo prazo.", clan: '$' },
+      { text: "Coloco o bem-estar coletivo acima dos interesses pessoais, sem hesitar.", clan: '@' },
+      { text: "Mantenho minha postura indiferente, sem deixar que a emoção interfira.", clan: 'π' },
+      { text: "Priorizo minha segurança e ganhos imediatos, evitando riscos coletivos.", clan: '£' },
+      { text: "Encaro o dilema com intensidade, impondo minha vontade com convicção.", clan: '€' },
+      { text: "Escolho a opção que traga resultados práticos e vantajosos de forma rápida.", clan: '¥' }
     ]
   }
 ];
@@ -244,7 +299,7 @@ function handleAnswer(clan) {
   showQuestion();
 }
 
-// Determina o clã com maior pontuação e exibe o resultado
+// Determina o clã com maior pontuação e exibe o resultado final
 function showResult() {
   let maxPoints = -1;
   let clanWinner = "";
