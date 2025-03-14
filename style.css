@@ -1,0 +1,63 @@
+/* Fundo geral: cinza RGB 155,155,155 com padrão de vinhas medievais */
+/* Substitua a URL abaixo por uma imagem de vinhas de sua preferência */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(155,155,155);
+    background-image: url('https://cdn.discordapp.com/attachments/1015790172966748203/1349927747517943860/eURPy6fxNB5IbAtQAj4P--2--wtu17.jpg?ex=67d4e1af&is=67d3902f&hm=201e3e947a12f564579f2584214fa42b4d2040c5e629c6b5b1d1c814c876a990&'); /* Exemplo de padrão de vinhas */
+    background-repeat: repeat;
+    color: #fff;
+  }
+  
+  #quiz-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* leve sobreposição para destacar o conteúdo */
+    border: 3px solid #800000; /* borda vinho para remeter ao tema */
+    border-radius: 10px;
+  }
+  
+  /* Botões com fundo vinho e texto cinza */
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #800000; /* vinho */
+    color: rgb(155,155,155);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Input de nome */
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  /* Moldura final: fundo cinza, texto vinho e formato quadrado */
+  .moldura {
+    background-color: rgb(155,155,155);
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    color: #800000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #800000;
+    box-sizing: border-box;
+  }
+  
