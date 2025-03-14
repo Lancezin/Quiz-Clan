@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(0,255,255);
+    background-color: rgb(155,155,155);
     background-image: url('https://cdn.discordapp.com/attachments/1015790172966748203/1349927747517943860/eURPy6fxNB5IbAtQAj4P--2--wtu17.jpg?ex=67d4e1af&is=67d3902f&hm=201e3e947a12f564579f2584214fa42b4d2040c5e629c6b5b1d1c814c876a990&'); /* Exemplo de padrão de vinhas */
     background-repeat: repeat;
     color: #fff;
@@ -46,7 +46,7 @@ body {
   
   /* Moldura final: fundo cinza, texto vinho e formato quadrado */
   .moldura {
-    background-color: rgb(0,255,255);
+    background-color: rgb(155,155,155);
     width: 300px;
     height: 300px;
     margin: 20px auto;
