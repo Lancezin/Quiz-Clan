@@ -272,7 +272,7 @@ function showQuestion() {
       <p>${current.question}</p>
       <div id="answers">${answersHTML}</div>
     `;
-    // Adiciona evento de clique para cada resposta
+    // Adiciona evento de clique em cada resposta
     document.querySelectorAll(".answer-btn").forEach(btn => {
       btn.addEventListener("click", function() {
         handleAnswer(this.getAttribute("data-clan"));
