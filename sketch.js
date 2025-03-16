@@ -38,14 +38,14 @@ const questions = [
     ]
   },
   {
-    question: "2. Em uma conferência sobre tecnologias futuristas, uma ideia controversa é apresentada. Qual é sua reação?",
+    question: "2. Você se depara com seu inimigo que até então diziam ser sanguinário, levando uma criança machucada, para ser tratada, o que você faz?",
     answers: [
-      { text: "Avalio seus méritos e riscos, estruturando um plano estratégico.", clan: '$' },
-      { text: "Defendo a inovação, acreditando no poder da tradição tecnológica.", clan: '@' },
-      { text: "Permaneço neutro e apenas observo as discussões.", clan: 'π' },
-      { text: "Fico cético e prefiro métodos que já conheço.", clan: '£' },
-      { text: "Critico com vigor e proponho uma abordagem mais intensa.", clan: '€' },
-      { text: "Apoio somente se houver benefícios práticos imediatos.", clan: '¥' }
+      { text: "Avalio a situação da criança, aproveitando e vendo o nível de força do inimigo.", clan: '$' },
+      { text: "Espero pacientemente ele levar a criança até a ajuda e chamo ele para lutar em outro local.", clan: '@' },
+      { text: "Permaneço neutro e apenas observo.", clan: 'π' },
+      { text: "Evito ficar perto do inimigo para que ele não me de um golpe surpresa.", clan: '£' },
+      { text: "Começo a gritar para que o inimigo comece a lutar e não ficar me enrolando.", clan: '€' },
+      { text: "Assassino a criança e começo a insultar meu inimigo.", clan: '¥' }
     ]
   },
   {
