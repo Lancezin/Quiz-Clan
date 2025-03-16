@@ -66,8 +66,8 @@ const questions = [
       { text: "Forneço apoio imediato, colocando o bem-estar coletivo em primeiro lugar.", clan: '@' },
       { text: "Observo a comunidade sem me envolver emocionalmente.", clan: 'π' },
       { text: "Prefiro não interferir para preservar minha estabilidade.", clan: '£' },
-      { text: "Imponho minha vontade de forma enérgica para 'resolver' o problema.", clan: '€' },
-      { text: "Aproximo-me apenas se houver benefícios estratégicos para mim.", clan: '¥' }
+      { text: "Imponho as leis e regras do meu clã a eles, os tornando parte nossa.", clan: '€' },
+      { text: "Colonizo eles para que virem nossos escravos.", clan: '¥' }
     ]
   },
   {
