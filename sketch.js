@@ -148,25 +148,25 @@ const questions = [
     ]
   },
   {
-    question: "12. Você é convidado para um encontro social em um ambiente de realidade virtual imersiva. Qual é sua atitude?",
+    question: "12. O time inimigo descobre que você é o espião infiltrado e te prendem em uma cela, o que você faz?",
     answers: [
-      { text: "Planejo minha participação para obter os melhores resultados.", clan: '$' },
-      { text: "Participo ativamente, valorizando conexões mesmo que virtuais.", clan: '@' },
-      { text: "Mantenho-me reservado, observando sem me envolver muito.", clan: 'π' },
-      { text: "Evito o encontro para preservar minha estabilidade.", clan: '£' },
-      { text: "Mergulho na experiência de forma intensa, desafiando convenções.", clan: '€' },
-      { text: "Só participo se houver ganhos práticos para meus objetivos.", clan: '¥' }
+      { text: "Planejo minha fuga visando todos os erros que posos cometes.", clan: '$' },
+      { text: "Tiro minha própria vida evitando que qualquer informação dos meus sejam reveladas.", clan: '@' },
+      { text: "Mantenho-me quieto do início ao fim.", clan: 'π' },
+      { text: "Clamo para me soltarem emtrando em desespero.", clan: '£' },
+      { text: "Ordeno que deem minha liberdade se eu ganhar uma luta.", clan: '€' },
+      { text: "Revelo todas as informações dos meus em troca da minha sobrevivência.", clan: '¥' }
     ]
   },
   {
-    question: "13. Durante uma crise ambiental, você tem a chance de implementar uma solução inovadora. O que faz?",
+    question: "13. Seu melhor amigo disse que está se aliando ao inimigo, o que você faz?",
     answers: [
-      { text: "Avalio os dados e proponho uma estratégia sustentável.", clan: '$' },
-      { text: "Mobilizo todos ao redor para uma ação conjunta e altruísta.", clan: '@' },
-      { text: "Permano alheio, sem me envolver na crise diretamente.", clan: 'π' },
-      { text: "Prefiro não me arriscar e me isolo da situação.", clan: '£' },
-      { text: "Defendo medidas radicais, mesmo que controversas.", clan: '€' },
-      { text: "Implemento a solução se ela gerar benefícios tangíveis.", clan: '¥' }
+      { text: "Avalio a situação e tento achar o meio menos caótica de resolver.", clan: '$' },
+      { text: "Perco a amizade na hora, viato que ele desonrou a todos.", clan: '@' },
+      { text: "Permano indiferente. a vida é dele, não minha.", clan: 'π' },
+      { text: "Choro pedindo pra ele não me matar.", clan: '£' },
+      { text: "Falo que se ele continuar com isso, terei de lutar contra ele.", clan: '€' },
+      { text: "Finalizo com a vida dele antes dele contra atacar.", clan: '¥' }
     ]
   },
   {
@@ -175,9 +175,9 @@ const questions = [
       { text: "Investigo a fundo antes de tomar qualquer atitude.", clan: '$' },
       { text: "Denuncio o segredo para proteger os inocentes.", clan: '@' },
       { text: "Ignoro a informação, mantendo-me distante.", clan: 'π' },
-      { text: "Não me envolvo, pois isso não afeta meus interesses.", clan: '£' },
+      { text: "Não me envolvo, pois isso pode ser perigoso.", clan: '£' },
       { text: "Uso o segredo para impor minha vontade de forma enérgica.", clan: '€' },
-      { text: "Avalio como explorá-lo para obter vantagens práticas.", clan: '¥' }
+      { text: "Faço desse segredo, uma ponte para eu me fortalecer socialmente.", clan: '¥' }
     ]
   },
   {
@@ -188,29 +188,29 @@ const questions = [
       { text: "Sigo a receita de forma básica, sem grandes inovações.", clan: 'π' },
       { text: "Opto por um prato simples e seguro, evitando riscos na cozinha.", clan: '£' },
       { text: "Experimento sabores intensos e ousados, sem medo de inovar.", clan: '€' },
-      { text: "Aprovo a receita se ela demonstrar praticidade e eficiência.", clan: '¥' }
+      { text: "Faço uma comida envenenada para que todos presentes menos eu adoeçam.", clan: '¥' }
     ]
   },
   {
-    question: "16. Você se depara com um fenômeno inexplicável durante uma expedição urbana. Qual é sua reação?",
+    question: "16. Você se depara com uma besta mítica. Qual é sua reação?",
     answers: [
-      { text: "Analiso cuidadosamente para entender seu impacto.", clan: '$' },
-      { text: "Mergulho na experiência, encantado com o mistério.", clan: '@' },
+      { text: "Analiso cuidadosamente para entender sua origem.", clan: '$' },
+      { text: "Adoto ela e chamo ela de Chomusque.", clan: '@' },
       { text: "Observo sem me envolver, mantendo a calma habitual.", clan: 'π' },
-      { text: "Procuro rapidamente uma rota segura para evitar complicações.", clan: '£' },
-      { text: "Encaro o fenômeno com fervor e visão intensa.", clan: '€' },
-      { text: "Identifico oportunidades práticas mesmo na anomalia.", clan: '¥' }
+      { text: "Procuro rapidamente uma saída segura para não morrer.", clan: '£' },
+      { text: "Encaro a besta com fervor e visão intensa.", clan: '€' },
+      { text: "Faço dela meu pet usado para matar.", clan: '¥' }
     ]
   },
   {
-    question: "17. Durante um debate acalorado sobre política e sociedade, você precisa tomar uma posição. Qual postura adota?",
+    question: "17. Você vê varias crianças sendo atacadas, o que você faz?",
     answers: [
-      { text: "Formulo argumentos sólidos baseados em fatos e estratégia.", clan: '$' },
-      { text: "Defendo com convicção os valores da justiça e solidariedade.", clan: '@' },
-      { text: "Permano neutro, evitando envolvimento em discussões intensas.", clan: 'π' },
-      { text: "Evito o debate para não arriscar conflitos desnecessários.", clan: '£' },
-      { text: "Ataco as ideias contrárias com paixão e vigor.", clan: '€' },
-      { text: "Adoto uma postura pragmática, focando em resultados concretos.", clan: '¥' }
+      { text: "Analiso o ambiente e vejo um método de salvar sem aumentar os danos.", clan: '$' },
+      { text: "Defendo elas e digo algo para se acalmarem (ex: vou te proteger com vagalumes).", clan: '@' },
+      { text: "Permaneço neutro sobre isso, esperando alguém agir.", clan: 'π' },
+      { text: "Saio correndo de medo de ser atacado também.", clan: '£' },
+      { text: "Ataco os inimigos com fúria.", clan: '€' },
+      { text: "Ataco as crianças, os inimigos, se deixar até os aliados.", clan: '¥' }
     ]
   },
   {
