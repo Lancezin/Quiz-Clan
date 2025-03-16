@@ -26,15 +26,15 @@ const clans = {
 
 // Lista completa das 20 perguntas e respostas remolduladas e enumeradas
 const questions = [
-  {
-    question: "1. Você encontra um artefato misterioso durante uma escavação arqueológica. O que você faz?",
+{
+    question: "1. Você encontra seu inimigo desprevinido, o que você faz?",
     answers: [
-      { text: "Analiso minuciosamente seus detalhes para descobrir seu valor estratégico.", clan: '$' },
-      { text: "Procuro um especialista para preservar sua importância histórica.", clan: '@' },
-      { text: "Ignoro-o, pois objetos antigos não me interessam.", clan: 'π' },
-      { text: "Deixo-o para trás, focando na minha segurança pessoal.", clan: '£' },
-      { text: "Testo sua resistência e, se necessário, destruo-o para provar seu poder.", clan: '€' },
-      { text: "Utilizo-o como ferramenta, se for vantajoso para meus objetivos.", clan: '¥' }
+      { text: "Analiso minuciosamente ele e vejo quais são seus pontos fracos.", clan: '$' },
+      { text: "Grito o nome dele, chamando para uma batalha justa.", clan: '@' },
+      { text: "Ignoro-o, pois não tenho nada haver com ele.", clan: 'π' },
+      { text: "Fujo sem que ele me veja, pois não sei a força dele.", clan: '£' },
+      { text: "Mato ele com um golpe sorrateiro.", clan: '€' },
+      { text: "Começo a atacar ele para lutarmos.", clan: '¥' }
     ]
   },
   {
