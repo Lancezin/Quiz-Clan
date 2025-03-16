@@ -236,14 +236,14 @@ const questions = [
     ]
   },
   {
-    question: "20. Você se vê diante de um dilema ético: escolher entre um benefício pessoal imediato e o bem coletivo. O que faz?",
+    question: "20. Uma entidade está em sua frente, qual pedido você faria a ela?",
     answers: [
-      { text: "Analiso os impactos e opto pela solução que maximize os benefícios a longo prazo.", clan: '$' },
-      { text: "Coloco o bem-estar coletivo acima dos interesses pessoais, sem hesitar.", clan: '@' },
-      { text: "Mantenho minha postura indiferente, sem deixar que a emoção interfira.", clan: 'π' },
-      { text: "Priorizo minha segurança e ganhos imediatos, evitando riscos coletivos.", clan: '£' },
-      { text: "Encaro o dilema com intensidade, impondo minha vontade com convicção.", clan: '€' },
-      { text: "Escolho a opção que traga resultados práticos e vantajosos de forma rápida.", clan: '¥' }
+      { text: "Peço sabedoria e percepção aguçada.", clan: '$' },
+      { text: "Peço honra e proteção a mim e meu clã.", clan: '@' },
+      { text: "Peço algo que faça com que eu não me envolva em nada.", clan: 'π' },
+      { text: "Peço uma benção que faça eu nunca mais precisar lutar.", clan: '£' },
+      { text: "Peço uma luta com a divindade para provar meu valor.", clan: '€' },
+      { text: "Peço fama riqueza,  poder e tudo do melhor.", clan: '¥' }
     ]
   }
 ];
