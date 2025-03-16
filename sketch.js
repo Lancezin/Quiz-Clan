@@ -92,26 +92,26 @@ const questions = [
       { text: "Assassinou ele. Traidores merecem a morte.", clan: '¥' }
     ]
   },
-  {
-    question: "7. Durante uma sessão de brainstorming em uma startup inovadora, uma ideia ousada é proposta. Como você reage?",
+{
+    question: "7. Durante uma missão, você acha uma escritura de terras ricas. O que você faz?",
     answers: [
-      { text: "Estruturo um plano robusto analisando prós e contras.", clan: '$' },
-      { text: "Incentivo a criatividade e o trabalho em equipe com entusiasmo.", clan: '@' },
-      { text: "Observo calmamente sem me comprometer com a ideia.", clan: 'π' },
-      { text: "Prefiro métodos tradicionais e evito riscos.", clan: '£' },
-      { text: "Defendo uma execução rápida e enérgica, sem reservas.", clan: '€' },
-      { text: "Apoio a ideia somente se houver benefícios claros e imediatos.", clan: '¥' }
+      { text: "Analiso de quem seria e vejo qual a melhor opção.", clan: '$' },
+      { text: "Vou devolver a escritura o mais rápido possível ao dono.", clan: '@' },
+      { text: "Ignoro o papel e continuo meu rumo.", clan: 'π' },
+      { text: "Deixo ali, vai que é uma armadilha.", clan: '£' },
+      { text: "Rasgo ela para que ninguém roube.", clan: '€' },
+      { text: "Roubo a escritura para mim.", clan: '¥' }
     ]
   },
-  {
-    question: "8. Você descobre que um velho amigo anda envolvido em atividades duvidosas. Qual é sua reação?",
+{
+    question: "8. Um idoso pergunta a você quem é Tyler. O que você diz?",
     answers: [
-      { text: "Procuro entender a situação antes de tomar uma decisão.", clan: '$' },
-      { text: "Ofereço ajuda para que ele retome o caminho certo.", clan: '@' },
-      { text: "Mantenho distância e deixo a situação como está.", clan: 'π' },
-      { text: "Ignoro o problema, pois não afeta diretamente minha vida.", clan: '£' },
-      { text: "Confronto-o com intensidade exigindo mudanças imediatas.", clan: '€' },
-      { text: "Utilizo a situação para obter alguma vantagem estratégica.", clan: '¥' }
+      { text: "Não sei quem é, mas posso te ajudar a procurar.", clan: '$' },
+      { text: "Não sei quem seria, mas posso pesquisar sobre.", clan: '@' },
+      { text: "Não sei quem é e não me importo.", clan: 'π' },
+      { text: "Você vai me sequestrar, ahhhhh!!.", clan: '£' },
+      { text: "Quando eu encontralo, iremos lutar.", clan: '€' },
+      { text: "Sei la porra.", clan: '¥' }
     ]
   },
   {
