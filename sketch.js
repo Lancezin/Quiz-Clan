@@ -71,14 +71,14 @@ const questions = [
     ]
   },
   {
-    question: "5. Você é convidado para um banquete em um ambiente moderno com toques medievais. Qual sua atitude?",
+    question: "5. No meio da viagem, seus suprimentos acabam, o que você faz?",
     answers: [
-      { text: "Organizo a noite para aproveitar cada detalhe de forma planejada.", clan: '$' },
-      { text: "Desfruto do evento valorizando tradições e hospitalidade.", clan: '@' },
-      { text: "Participo sem muita empolgação, mantendo distância emocional.", clan: 'π' },
-      { text: "Fico na margem, evitando qualquer situação de risco.", clan: '£' },
-      { text: "Envolvo-me intensamente, demonstrando vigor e paixão.", clan: '€' },
-      { text: "Participarei se houver oportunidades para ganhos práticos.", clan: '¥' }
+      { text: "Vejo métodos alternativos para suprir a falta.", clan: '$' },
+      { text: "Caço os meus recursos para que eu não sofra e pego a mais para os outros membros", clan: '@' },
+      { text: "Espero até o fim da viagem sem me importar muito.", clan: 'π' },
+      { text: "Choro de desespero e penso que vou morrer.", clan: '£' },
+      { text: "Faço um desafio da caça para todos do grupo.", clan: '€' },
+      { text: "Roubo suprimentos de todos do meu grupo.", clan: '¥' }
     ]
   },
   {
