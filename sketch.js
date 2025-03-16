@@ -214,36 +214,36 @@ const questions = [
     ]
   },
   {
-    question: "18. Você tem a oportunidade de embarcar em uma viagem interplanetária. Qual é sua reação?",
+    question: "18. Se você pudesse ser deus por 1 dia, o que você faria?",
     answers: [
-      { text: "Planejo a expedição com detalhes minuciosos e realistas.", clan: '$' },
-      { text: "Aceito com entusiasmo, animado com a possibilidade de explorar o desconhecido.", clan: '@' },
-      { text: "Fico indiferente, pois o espaço não me desperta grandes emoções.", clan: 'π' },
-      { text: "Recuso, preferindo a segurança e a rotina da Terra.", clan: '£' },
-      { text: "Empolgo-me com a ideia e me preparo para desafios extremos.", clan: '€' },
-      { text: "Aceito se houver ganhos práticos que justifiquem a viagem.", clan: '¥' }
+      { text: "Analisaria todas as possibilidades de coisas para fazer e agiria cautelosamente.", clan: '$' },
+      { text: "Faria um mundo sem guerras, fome, reinado apenas pela paz e honra.", clan: '@' },
+      { text: "Deixaria o mundo sem fome por 1 dia.", clan: 'π' },
+      { text: "Faria tudo ter protetor de quina para ninguém se machucar.", clan: '£' },
+      { text: "Faria o universo ser um ringue de luta com batalhas todos os dias.", clan: '€' },
+      { text: "Banharia o mundo em caos e desordem usando bonecos mortos controlados pela minha fumaça.", clan: '¥' }
     ]
   },
   {
-    question: "19. Durante uma competição de habilidades artísticas, você é desafiado a criar uma obra original. Como você procede?",
+    question: "19. Você está no abismo do universo por 1 hora, o que você faz?",
     answers: [
-      { text: "Estruturo um plano meticuloso para criar algo tecnicamente excelente.", clan: '$' },
-      { text: "Inspiro-me na tradição e busco emocionar com minha criação.", clan: '@' },
-      { text: "Produzo a obra sem muito empenho emocional, apenas cumprindo o básico.", clan: 'π' },
-      { text: "Prefiro uma abordagem segura, sem arriscar em inovações.", clan: '£' },
-      { text: "Experimento técnicas ousadas para criar uma peça vibrante e impactante.", clan: '€' },
-      { text: "Adoto uma estratégia prática se a obra trouxer reconhecimento imediato.", clan: '¥' }
+      { text: "Reflito sobre toda existência nessa 1 hora.", clan: '$' },
+      { text: "Fico admirando o universo e agradecendo por existir.", clan: '@' },
+      { text: "Espero 1h parado.", clan: 'π' },
+      { text: "Fico com medo se eu morrer no vazio.", clan: '£' },
+      { text: "Tento incessantemente chamar alguma divindade para lutar ou me dar uma benção.", clan: '€' },
+      { text: "Treino durante esse tempo todo minha fumaça e minha manipulação de fantoches.", clan: '¥' }
     ]
   },
   {
-    question: "20. Uma entidade está em sua frente, qual pedido você faria a ela?",
+    question: "20. Uma entidade está em sua frente, o que você faz",
     answers: [
       { text: "Peço sabedoria e percepção aguçada.", clan: '$' },
-      { text: "Peço honra e proteção a mim e meu clã.", clan: '@' },
+      { text: "Peço honra e proteção além de elogiar a beleza dela.", clan: '@' },
       { text: "Peço algo que faça com que eu não me envolva em nada.", clan: 'π' },
       { text: "Peço uma benção que faça eu nunca mais precisar lutar.", clan: '£' },
-      { text: "Peço uma luta com a divindade para provar meu valor.", clan: '€' },
-      { text: "Peço fama riqueza,  poder e tudo do melhor.", clan: '¥' }
+      { text: "Peço que ela lute comigo.", clan: '€' },
+      { text: "Peço fama riqueza, habilidade de cuspir ácido em portas e corte que corta o mundo.", clan: '¥' }
     ]
   }
 ];
