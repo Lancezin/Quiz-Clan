@@ -115,36 +115,36 @@ const questions = [
     ]
   },
   {
-    question: "9. Em um festival cultural futurista, você é desafiado a competir em um jogo inovador. O que você faz?",
+    question: "9. Em um festival cultural, uma pessoa aparece morta. O que você faz?",
     answers: [
-      { text: "Estudo as regras para maximizar minhas chances de vitória.", clan: '$' },
-      { text: "Participo com entusiasmo e espírito esportivo.", clan: '@' },
-      { text: "Prefiro assistir, sem entrar na competição.", clan: 'π' },
-      { text: "Fico fora, buscando evitar riscos desnecessários.", clan: '£' },
-      { text: "Competirei com toda a minha energia para vencer a qualquer custo.", clan: '€' },
-      { text: "Envolvo-me se isso trouxer vantagens práticas para mim.", clan: '¥' }
+      { text: "Estudo a situação e tento analisar os culpados.", clan: '$' },
+      { text: "Fico o dia todo atrás do culpado.", clan: '@' },
+      { text: "Fico vendo peocurarem o culpado sem me envolver.", clan: 'π' },
+      { text: "Fico perto de autoridades, para não ser o próximo alvo.", clan: '£' },
+      { text: "Ajudo a procurar o culpado para mata-lo a qualquer custo.", clan: '€' },
+      { text: "Finjo naturalidade, pois eu sou o assassino.", clan: '¥' }
     ]
   },
   {
-    question: "10. Você é designado para liderar uma missão de resgate em uma metrópole futurista. Qual é sua abordagem?",
+    question: "10. Você é designado para liderar uma missão de resgate em uma metrópole. Qual é sua abordagem?",
     answers: [
       { text: "Planejo a operação meticulosamente, considerando todos os riscos.", clan: '$' },
       { text: "Lidero com coragem e empatia, colocando vidas em primeiro lugar.", clan: '@' },
       { text: "Mantenho uma postura distante, focando exclusivamente na missão.", clan: 'π' },
       { text: "Prefiro evitar a responsabilidade e não me arriscar.", clan: '£' },
       { text: "Conduzo a missão com agressividade e determinação total.", clan: '€' },
-      { text: "Tomo decisões práticas visando eficiência e resultados imediatos.", clan: '¥' }
+      { text: "Tomo decisões práticas visando eficiência e ignorando civis.", clan: '¥' }
     ]
   },
   {
-    question: "11. Durante uma expedição a uma floresta encantada, um ser místico oferece um presente. Como você reage?",
+    question: "11. Uma garota/o diz que gosta de você. Como você reage?",
     answers: [
-      { text: "Aceito o presente após analisar suas implicações cuidadosamente.", clan: '$' },
-      { text: "Recebo-o com gratidão, valorizando o gesto simbólico.", clan: '@' },
-      { text: "Ignoro o presente, sem me deixar envolver por superstições.", clan: 'π' },
-      { text: "Recuso-o para evitar distrações em minha jornada.", clan: '£' },
-      { text: "Agarro o presente impulsivamente, mesmo sem considerar as consequências.", clan: '€' },
-      { text: "Utilizo-o de forma prática se isso me trouxer uma vantagem.", clan: '¥' }
+      { text: "Vejo se a pessoa é alguém de princípios que eu goste.", clan: '$' },
+      { text: "Elogio a coragem dela e falo para marcarmos um encontro.", clan: '@' },
+      { text: "Ignoro completamente a pessoa.", clan: 'π' },
+      { text: "Recuso-o para evitar coração partido.", clan: '£' },
+      { text: "Pergunto se ela quer lutar comigo em forma de união.", clan: '€' },
+      { text: "Faço dessa pessoa meu lacaio mais leal.", clan: '¥' }
     ]
   },
   {
