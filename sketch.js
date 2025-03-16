@@ -49,14 +49,14 @@ const questions = [
     ]
   },
   {
-    question: "3. Você é convidado para participar de uma aventura global em busca de tesouros perdidos. Qual é sua decisão?",
+    question: "3. Você encontra um mendingo dormindo ma sua cidade, o que você faz?",
     answers: [
-      { text: "Aceito com cautela, planejando cada etapa meticulosamente.", clan: '$' },
-      { text: "Mergulho de cabeça na aventura, animado com a chance de ajudar outros.", clan: '@' },
-      { text: "Ignoro o convite, pois aventuras não me despertam interesse.", clan: 'π' },
-      { text: "Recuso, priorizando minha própria segurança e rotina.", clan: '£' },
-      { text: "Aceito com entusiasmo, pronto para enfrentar perigos intensamente.", clan: '€' },
-      { text: "Só participo se os lucros forem evidentes e vantajosos.", clan: '¥' }
+      { text: "Vejo se ele está bem e se porta alguma doença.", clan: '$' },
+      { text: "Ofereço moradia, comida, roupas, etc. Tudo que ele precisar.", clan: '@' },
+      { text: "Ignoro o mendingo, pois ele não me interessa.", clan: 'π' },
+      { text: "Fico com medo de pegar doença e fujo.", clan: '£' },
+      { text: "Chuto incessantemente o mendingo até que ele saia da minha calçada.", clan: '€' },
+      { text: "Mato o mendingo, pois ele está estragando o reino.", clan: '¥' }
     ]
   },
   {
