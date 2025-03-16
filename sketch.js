@@ -82,14 +82,14 @@ const questions = [
     ]
   },
   {
-    question: "6. Ao investigar uma lenda urbana, você se depara com um dilema moral inesperado. O que você faz?",
+    question: "6. Depois de anos, você encontra quem mais confiou no time inimigo. O que você faz?",
     answers: [
-      { text: "Analiso a situação e tomo uma decisão com base na lógica.", clan: '$' },
+      { text: "Analiso a situação e tomo e não me deixo levar por emoções.", clan: '$' },
       { text: "Agirei com compaixão, mesmo que isso envolva riscos pessoais.", clan: '@' },
       { text: "Mantenho-me distante e não me deixo levar por emoções.", clan: 'π' },
-      { text: "Evito o dilema para não complicar minha vida.", clan: '£' },
-      { text: "Enfrento o dilema com intensidade e soluções radicais.", clan: '€' },
-      { text: "Decido com frieza, priorizando resultados práticos.", clan: '¥' }
+      { text: "Evito ele, para não complicar eu.", clan: '£' },
+      { text: "Discuto com ele sobre a traição dele.", clan: '€' },
+      { text: "Assassinou ele. Traidores merecem a morte.", clan: '¥' }
     ]
   },
   {
